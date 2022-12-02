@@ -1,0 +1,19 @@
+$engine: 3
+$onesync: on
+name: MRP 
+version: 3.3.0
+author: Sharon
+description: Recipe for the base resources required to run a minimal FiveM server.
+
+tasks: 
+  # Download default MRP resources
+  - action: download_github
+    src: https://github.com/Nislet1/QPixel-2.0
+    ref: master
+    subpath: resources
+    dest: ./resources
+
+  # Download default server.cfg
+  - action: download_file
+    url: https://github.com/Nislet1/QPixel-2.0/server.cfg
+    path: ./server.cfg
