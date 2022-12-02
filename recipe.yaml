@@ -12,7 +12,7 @@ tasks:
     subpath: resources
     dest: ./resources
 
-  # Download default server.cfg
+  #Download default server.cfg
   - action: download_file
     url: https://github.com/Nislet1/QPixel-2.0/server.cfg
     path: ./server.cfg
