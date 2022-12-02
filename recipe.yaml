@@ -9,7 +9,6 @@ tasks:
   # Download default MRP resources
   - action: download_github
     src: https://github.com/Nislet1/QPixel-2.0
-    ref: master
     subpath: resources
     dest: ./resources
 
